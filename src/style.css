@@ -1,0 +1,115 @@
+Impossible de créer, modifier ou importer … Espace de stockage insuffisant. Profitez de 100 Go de stockage pour 19,00 MAD 4,75 MAD/mois pendant 2 mois.
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 15px;
+    -fx-padding: 20px;
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.2), 10, 0, 0, 10 ); /* Ombre interne subtile */
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}
+
+.text-field {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #b3b3b3;
+    -fx-border-radius: 10px;
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+    -fx-transition: border-color 0.3s ease, background-color 0.3s ease; /* Transition douce */
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-background-color: #eaf6e4;
+}
+
+
+.text-area {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-transition: border-color 0.3s ease;
+}
+
+.text-area:hover {
+    -fx-border-color: #4CAF50;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 12px 20px;
+    -fx-border-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-transition: background-color 0.3s ease, transform 0.2s ease; /* Transition de couleur et de taille */
+    -fx-cursor: hand; /* Curseur en forme de main */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Changement de couleur au survol */
+    -fx-transform: scale(1.05); /* Agrandissement au survol */
+}
+
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-background-color: #eaf6e4;
+    -fx-cursor: text; /* Changer le curseur en texte lors du focus */
+}
+
+.text-area:focused {
+    -fx-border-color: #4CAF50;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+    -fx-transform: scale(1.05);
+}
+
+.combo-box {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #b3b3b3;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.combo-box:focused {
+    -fx-border-color: #4CAF50;
+}
+
+.vbox, .button, .text-field, .text-area {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 5);
+}
+
+.root {
+    -fx-background-color: #f7f7f7;
+    -fx-padding: 30px;
+}
+
+.separator {
+    -fx-background-color: #ddd;
+    -fx-padding: 5px;
+}
+
+.button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #666666;
+    -fx-cursor: not-allowed;
+}
